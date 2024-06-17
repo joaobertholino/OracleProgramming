@@ -1,0 +1,28 @@
+package model.entities;
+
+public class CreditAccount extends Account {
+	private Integer creditLimit;
+
+	public CreditAccount() {
+		super();
+		this.creditLimit = 100;
+	}
+
+	public CreditAccount(String accountName, int num, int balance, int creditLimit) {
+		super(accountName, num, balance);
+		this.creditLimit = creditLimit;
+	}
+
+	public Integer getCreditLimit() {
+		return creditLimit;
+	}
+
+	public void setCreditLimit(Integer creditLimit) {
+		this.creditLimit = creditLimit;
+	}
+
+	@Override
+	public void print() {
+		System.out.println(this.getAccountName() + " " + this.getAccountNum() + " " + this.getBalance() + " " + this.creditLimit);
+	}
+}
