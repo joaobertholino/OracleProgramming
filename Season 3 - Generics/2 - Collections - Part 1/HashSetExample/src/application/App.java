@@ -1,6 +1,7 @@
 package application;
 
 import java.util.HashSet;
+
 import model.entities.Coin;
 
 public class App {
@@ -27,16 +28,35 @@ public class App {
 
 		System.out.println(bagOfCoins.contains(coin10));
 
-		String result = (findCoin(bagOfCoins, coin10) ? "There is a coin10 in the bag!" : "There is no coin10 in the bag!");
-		System.out.println(result);
+		System.out.println((findCoin(bagOfCoins, coin10) ? "There is a coin10 in the bag!" : "There is no coin10 in the bag!"));
+		System.out.println((findCoin(bagOfCoins, coin100) ? "There is a coin10 in the bag!" : "There is no coin10 in the bag!"));
+		
+		System.out.println(displayBagContents(bagOfCoins));
+		
+		System.out.println(displayBagDetails(bagOfCoins));
+		bagOfCoins.clear();
+		System.out.println(displayBagDetails(bagOfCoins));
 	}
 
 	public static Boolean findCoin(HashSet<Coin> bag, Coin coin) {
-		for (Coin coinL : bag) {
-			if (coinL.equals(coin)) {
-				return true;
-			}
+		if (bag.contains(coin)) {
+			return true;
 		}
 		return false;
+	}
+	
+	public static StringBuilder displayBagContents(HashSet<Coin> bag) {
+		StringBuilder result = new StringBuilder();
+		for (Coin coin : bag) {
+			result.append(coin.getDenomination() + "\n");
+		}
+		return result;
+	}
+	
+	public static String displayBagDetails(HashSet<Coin> bag) {
+		if (bag.isEmpty()) {
+			return "HashSet is empty!";
+		}
+		return String.valueOf(bag.size());
 	}
 }
