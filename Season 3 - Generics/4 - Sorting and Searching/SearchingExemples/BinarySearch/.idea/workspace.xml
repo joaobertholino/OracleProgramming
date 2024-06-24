@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="215173b6-41c3-42d5-901c-4e249350536b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 1/Lesson1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 1/Lesson1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 1/Lesson1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 1/Lesson1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 1/Lesson1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 1/Lesson1/Lesson1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 1/Lesson1/src/application/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 1/Lesson2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 2/Lesson2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 2/Lesson2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 2/Lesson2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 2/Lesson2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 2/Lesson2/Lesson2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 2/Lesson2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 3/Lesson3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 3/Lesson3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 3/Lesson3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 3/Lesson3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 3/Lesson3/Lesson3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 3/Lesson3/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 4/Lesson4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 4/Lesson4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 4/Lesson4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 4/Lesson4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 4/Lesson4/Lesson4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 4/Lesson4/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 5/Lesson5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 5/Lesson5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 5/Lesson5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 5/Lesson5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 5/Lesson5/Lesson5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 5/Lesson5/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 6/Lesson6/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 6/Lesson6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 6/Lesson6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 6/Lesson6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 6/Lesson6/Lesson6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 6/Lesson6/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 7/Lesson7/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 7/Lesson7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 7/Lesson7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 7/Lesson7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 7/Lesson7/Lesson7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 7/Lesson7/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 8/Lesson8/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 8/Lesson8/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 8/Lesson8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 8/Lesson8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 8/Lesson8/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 8/Lesson8/Lesson8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 8/Lesson8/src/application/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 8/Lesson8/src/model/entities/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 8/Lesson8/src/model/entities/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Season 1 - Fundamentos de Java - O que devo saber/Exercicio 8/Lesson8/src/model/entities/Fish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1 - Generics/GenericMethodExample/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1 - Generics/GenericMethodExample/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1 - Generics/GenericMethodExample/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1 - Generics/GenericMethodExample/bin/application/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1 - Generics/GenericMethodExample/bin/model/entities/GenericClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1 - Generics/GenericMethodExample/src/application/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1 - Generics/GenericMethodExample/src/model/entities/GenericClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/Cells/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/Cells/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/Cells/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/Cells/bin/application/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/Cells/bin/model/entities/Cell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/Cells/bin/model/entities/CellCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/Cells/src/application/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/Cells/src/model/entities/Cell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/Cells/src/model/entities/CellCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/ClassList/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/ClassList/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/ClassList/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/ClassList/bin/application/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/ClassList/src/application/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/HashSetExample/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/HashSetExample/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/HashSetExample/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/HashSetExample/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/HashSetExample/bin/application/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/HashSetExample/bin/model/entities/Coin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/HashSetExample/src/application/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2 - Collections - Part 1/HashSetExample/src/model/entities/Coin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/ClassListObj/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/ClassListObj/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/ClassListObj/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/ClassListObj/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/ClassListObj/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/ClassListObj/ClassListObj.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/ClassListObj/src/application/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/ClassListObj/src/model/entities/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/HashFruits/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/HashFruits/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/HashFruits/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/HashFruits/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/HashFruits/HashFruits.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/HashFruits/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/LettersQueue/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/LettersQueue/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/LettersQueue/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/LettersQueue/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/LettersQueue/LettersQueue.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/LettersQueue/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/LettersStack/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/LettersStack/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/LettersStack/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/LettersStack/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/LettersStack/LettersStack.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3 - Collections - Part 2/LettersStack/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/exception/ElementFound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/exception/ElementNotFound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SequentialSearch/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SequentialSearch/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SequentialSearch/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SequentialSearch/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SequentialSearch/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SequentialSearch/SequentialSearch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SequentialSearch/src/application/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SequentialSearch/src/model/exception/ElementFound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SequentialSearch/src/model/exception/ElementNotFound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SortingExemples/BubbleSort/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SortingExemples/BubbleSort/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SortingExemples/BubbleSort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SortingExemples/BubbleSort/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SortingExemples/BubbleSort/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SortingExemples/BubbleSort/BubbleSort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SortingExemples/BubbleSort/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SortingExemples/SelectionSort/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SortingExemples/SelectionSort/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SortingExemples/SelectionSort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SortingExemples/SelectionSort/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SortingExemples/SelectionSort/SelectionSort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SortingExemples/SelectionSort/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="C:\Program Files\Maven" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2iIU1mmnGciyfQ6SeX2WCTuyLEk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="215173b6-41c3-42d5-901c-4e249350536b" name="Changes" comment="" />
+      <created>1719177371503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719177371503</updated>
+      <workItem from="1719177372500" duration="537000" />
+      <workItem from="1719193818953" duration="2189000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
