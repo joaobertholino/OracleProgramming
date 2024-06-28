@@ -7,10 +7,12 @@ public class Main {
 		String ssn = in.next();
 
 		if (ssnChecker(ssn)) {
-			System.out.println("SSN is valid!");
+			System.out.println("This SSN is valid!");
 		} else {
-			System.out.println("SSN not valid!");
+			System.err.println("This SSN is not valid!");
 		}
+
+		in.close();
 	}
 
 	public static boolean ssnChecker(String ssn) {

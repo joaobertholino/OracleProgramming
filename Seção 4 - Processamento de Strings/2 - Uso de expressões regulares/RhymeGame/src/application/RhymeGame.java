@@ -10,7 +10,7 @@ public class RhymeGame {
 		if (rhymningAnimal(animal)) {
 			System.out.println("This animal rhymes with \"cat\"!");
 		} else {
-			System.out.println("This animal doesn't \"rhyme\"!");
+			System.out.println("This animal doesn't rhyme!");
 		}
 
 		in.close();
