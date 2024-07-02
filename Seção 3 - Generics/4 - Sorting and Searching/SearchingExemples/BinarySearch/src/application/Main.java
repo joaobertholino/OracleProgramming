@@ -5,11 +5,13 @@ import model.exception.ElementNotFound;
 
 public class Main {
 	public static void main(String[] args) {
-		int[] numbers = {2, 10, 16, 34, 37, 56, 57, 76, 81, 83, 85};
+		int[] numbers = {2, 10, 16, 34, 37, 56, 57, 77, 81, 83, 85};
 
 		displayNumbers(numbers);
 		try {
-			if (binarySearchOne(numbers, 77)) System.out.println("Valor encontrado!");
+			if (binarySearchOne(numbers, 57)) {
+				System.out.println("Valor encontrado!");
+			}
 		} catch (ElementFound | ElementNotFound e) {
 			System.err.println(e.getMessage());
 		}

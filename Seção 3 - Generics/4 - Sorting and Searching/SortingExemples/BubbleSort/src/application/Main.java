@@ -1,10 +1,14 @@
+package application;
+
 public class Main {
 	public static void main(String[] args) {
-		int[] numbers = {49, 58, 1, 2, 87};
+//		numbers.length => 5
+//		int[] numbers = {49, 58, 1, 2, 87};
+		int[] numbers = {1, 2, 3, 4, 5};
 
 		displayArray(numbers);
-		bubbleSortOne(numbers);
-//		bubbleSortTwo(numbers);
+//		bubbleSortOne(numbers);
+		bubbleSortTwo(numbers);
 		displayArray(numbers);
 	}
 

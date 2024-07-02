@@ -10,7 +10,7 @@ public class Main {
 		displayNames(names);
 		try {
 			sequentialSearchOne(names, "Ellen");
-			sequentialSearchTwo(names, "Nicolas");
+//			sequentialSearchTwo(names, "Nicolas");
 		} catch (ElementFound | ElementNotFound e) {
 			System.err.println(e.getMessage());
 		}
