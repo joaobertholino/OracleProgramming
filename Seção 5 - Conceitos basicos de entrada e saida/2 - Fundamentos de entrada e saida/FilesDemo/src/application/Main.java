@@ -15,27 +15,37 @@ public class Main {
 	 * argumento ao método {@code get} que representa o caminho absoluto que sera criado, caso não exista. A segunda
 	 * variável chamada {@code usersFilePath} é passado uma string como argumento ao método {@code get} que representa o
 	 * nome do arquivo que sera criado, caso não exista. A terceira variável chamada {@code settingsFilePath} é passado
-	 * uma string como argumento para o método {@code get} que representa o nome do arquivo que sera criado, caso não exista.
+	 * uma string como argumento para o método {@code get} que representa o nome do arquivo que sera criado, caso não
+	 * exista.
 	 * <p>
 	 * Por fim, é declarado um bloco {@code try-catch} onde é declarado duas variáveis do tipo {@code Path}, das quais
-	 * irão receber o retorno da chamado do método estático {@code checkFiles} da classe {@code FilesDemo} que, em seguida,
-	 * é chamado o método estático {@code displayFileStatus}, passando como argumento as duas variáveis {@code users} e
-	 * {@code settings}.
+	 * irão receber o retorno da chamada do método estático {@code checkFiles} da classe {@code FilesDemo} que, em
+	 * seguida, é chamado o método estático {@code displayFileStatus}, passando como argumento as duas variáveis
+	 * {@code users} e {@code settings}.
 	 * <p>
 	 * Caso ocorra uma exceção, essa exceção sera capturada pelo bloco {@code catch} e sera exibida a sua mensagem padrão
 	 * no console.
 	 */
 	public static void main(String[] args) {
-		Path dirPath = Paths.get("C:\\Users\\joaob\\OneDrive\\Documentos\\SENAI\\OracleProgramming\\Seção 5 - Conceitos basicos de entrada e saida\\2 - Fundamentos de entrada e saida");
-		Path usersFilePath = Paths.get("Highscores.txt");
+		Path dirPath = Paths.get("C:\\Users\\joaob\\OneDrive\\Documentos\\SENAI\\OracleProgramming\\Seção 5 - Conceitos basicos de entrada e saida\\2 - Fundamentos de entrada e saida\\FileDemoArchives");
+		Path usersFilePath = Paths.get("HighScores.txt");
 		Path settingsFilePath = Paths.get("Settings.txt");
 
 		try {
-			Path users = FilesDemo.checkFiles(dirPath, usersFilePath);
-			Path settings = FilesDemo.checkFiles(dirPath, settingsFilePath);
-			displayFileStatus(users, settings);
+			Path users = FilesDemo.createFiles(dirPath, usersFilePath);
+			Path settings = FilesDemo.createFiles(dirPath, settingsFilePath);
+
+			if (users != null) {
+				displayFileStatus(users, settings);
+			}
+			if (FilesDemo.deleteFile(dirPath)) {
+				System.err.println(users + " - Deleted");
+			}
+			if (FilesDemo.deleteFile(settings)) {
+				System.err.println(settings + " - Deleted");
+			}
 		} catch (IOException e) {
-			System.err.println(e.getMessage());
+			System.err.println(e.getClass() + "\n" + e.getMessage());
 		}
 	}
 
@@ -46,7 +56,8 @@ public class Main {
 	 * Este método declara uma sequencia de {@code System.out.println} que imprimem no console o retorno de cada um dos
 	 * métodos estáticos da classe {@code Files} de verificação de propriedades do objeto da classe {@code Path} passados
 	 * como argumento para eles.
-	 * @param users Parâmetro que espera receber um objeto da classe {@code Path}.
+	 *
+	 * @param users    Parâmetro que espera receber um objeto da classe {@code Path}.
 	 * @param settings Parâmetro que espera receber um objeto da classe {@code Path}.
 	 * @throws IOException Exceção verificada que é propagada para o escopo do qual este método é chamado.
 	 */

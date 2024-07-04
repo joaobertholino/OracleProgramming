@@ -38,14 +38,13 @@ public class Main {
 
 		System.out.println("\n");
 
-		Path rp = Paths.get("C:/JavaProgramming/IO/../NIO2//DemoFile.txt");
+		Path rp = Paths.get("C:/JavaProgramming/IO/../NIO2/DemoFile.txt");
 		System.out.println("rp.normalize(): [" + rp.normalize() + "]");
 
 		System.out.println("\n");
 
-		Path sp = Paths.get("C:\\Users\\joaob\\OneDrive\\Documentos\\SENAI\\OracleProgramming\\Seção 5 - Conceitos basicos de entrada e saida\\1 - Basico de entrada e saida\\Input and Output\\NIO2\\demoFiles.txt");
-		System.out.println("p.subpath() [" + sp.getNameCount() + "][" + sp.subpath(0, 5) + "]");
-		System.out.println("p.subpath() [" + sp.getNameCount() + "][" + (sp.normalize()).subpath(0, sp.normalize().getNameCount() - 1) + "]");
-
+		Path sp = Paths.get("C:/JavaProgramming/IO/../NIO2/demoFiles.txt");
+		System.out.println("path.subpath() [" + sp.getNameCount() + "][" + sp.subpath(0, 5) + "]");
+		System.out.println("path.subpath() [" + sp.getNameCount() + "][" + (sp.normalize()).subpath(0, sp.normalize().getNameCount()) + "]");
 	}
 }

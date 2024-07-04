@@ -15,21 +15,26 @@ public class FilesDemo {
 	 * parâmetro {@code dirPath}, recebendo o objeto da classe {@code Path} do parâmetro {@code filePath} como argumento.
 	 * <p>
 	 * Utilizando a estrutura condicional {@code if}, é verificado se o diretório do parâmetro {@code dirPath} não existe,
-	 * se não existir, esse diretório sera criado com base no objeto da classe {@code Path} fornecido, utilizando o
-	 * método {@code createDirectories} da classe {@code Files}.
+	 * utilizando o método estático {@code notExists} da classe {@code Files}, se não existir, esse diretório sera criado
+	 * com base no objeto da classe {@code Path} fornecido, utilizando o método {@code createDirectories} da classe
+	 * {@code Files}.
 	 * <p>
-	 * Apos isso, é verificado se o diretório armazenado na variável {@code absPath} não existe, se não existir, esse
-	 * arquivo sera criado com base no diretório do objeto da classe {@code Path} fornecido, utilizando o método
-	 * {@code createFile} da classe {@code Files}.
+	 * Apos isso, é verificado se o diretório armazenado na variável {@code absPath} não existe, utilizando o método
+	 * estático {@code notExists} da classe {@code Files}, se não existir, esse arquivo sera criado com base no diretório
+	 * do objeto da classe {@code Path} fornecido, utilizando o método {@code createFile} da classe {@code Files}.
 	 * <p>
 	 * Por fim, o método retorna um objeto da classe {@code Path} que representa um diretório absoluto, ou seja, que
 	 * contem um nó {@code root}.
-	 * @param dirPath Parâmetro que espera receber um objeto da classe {@code Path}, do qual representa um diretório absoluto.
-	 * @param filePath Parâmetro que espera receber um objeto da classe {@code Path}, do qual representa um diretório relativo.
-	 * @return Um objeto da classe {@code Path} que representa a resolução do objeto {@code dirPath} e do objeto {@code filePath}.
+	 *
+	 * @param dirPath  Parâmetro que espera receber um objeto da classe {@code Path}, do qual representa um diretório
+	 *                 absoluto.
+	 * @param filePath Parâmetro que espera receber um objeto da classe {@code Path}, do qual representa um diretório
+	 *                 relativo.
+	 * @return Um objeto da classe {@code Path} que representa a resolução do objeto {@code dirPath} e do objeto
+	 * {@code filePath}.
 	 * @throws IOException Propaga esta exceção para o escopo do qual este método é chamado.
 	 */
-	public static Path checkFiles(Path dirPath, Path filePath) throws IOException {
+	public static Path createFiles(Path dirPath, Path filePath) throws IOException {
 		Path absPath = dirPath.resolve(filePath);
 		if (Files.notExists(dirPath)) {
 			Files.createDirectories(dirPath);
@@ -38,5 +43,13 @@ public class FilesDemo {
 			Files.createFile(absPath);
 		}
 		return absPath;
+	}
+
+	public static boolean deleteFile(Path filePath) throws IOException {
+		if (Files.exists(filePath)) {
+			Files.delete(filePath);
+			return true;
+		}
+		return false;
 	}
 }
