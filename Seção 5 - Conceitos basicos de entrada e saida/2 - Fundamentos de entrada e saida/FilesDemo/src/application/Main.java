@@ -18,10 +18,14 @@ public class Main {
 	 * uma string como argumento para o método {@code get} que representa o nome do arquivo que sera criado, caso não
 	 * exista.
 	 * <p>
-	 * Por fim, é declarado um bloco {@code try-catch} onde é declarado duas variáveis do tipo {@code Path}, das quais
+	 * Apos isso, é declarado um bloco {@code try-catch} onde é declarado duas variáveis do tipo {@code Path}, das quais
 	 * irão receber o retorno da chamada do método estático {@code checkFiles} da classe {@code FilesDemo} que, em
-	 * seguida, é chamado o método estático {@code displayFileStatus}, passando como argumento as duas variáveis
-	 * {@code users} e {@code settings}.
+	 * seguida, é utilizado um bloco {@code if} que verifica se a variável {@code users} é diferente de {@code null}, se
+	 * for, será executado o método {@code displayFileStatus} passando as variáveis {@code users} e {@code settings} como
+	 * argumento.
+	 * <p>
+	 * Por fim, é declarado dois blocos {@code if} dos quais irão deletar os arquivos referenciados pelas variáveis
+	 * {@code users} e {@code settings} exibindo uma mensagem no console caso sejam deletados.
 	 * <p>
 	 * Caso ocorra uma exceção, essa exceção sera capturada pelo bloco {@code catch} e sera exibida a sua mensagem padrão
 	 * no console.

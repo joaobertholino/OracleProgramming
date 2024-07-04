@@ -45,6 +45,18 @@ public class FilesDemo {
 		return absPath;
 	}
 
+	/**
+	 * Método estático que torna um primitivo do tipo {@code boolean} recebendo um objeto da classe {@code Path} como
+	 * argumento, propagando uma exceção do tipo {@code IOException} para o escopo do qual este método é chamado.
+	 * <p>
+	 * É declarado um bloco {@code if} onde é verificado se o objeto da classe {@code Path} existe utilizando o método
+	 * estático {@code exists} da classe {@code Files}. Se existir, este arquivo sera deletado utilizando o método
+	 * estático {@code delete} da classe {@code Files} passando o objeto da classe {@code Path} como argumento e retornando
+	 * {@code true}, se não existir, o método apenas retorna false.
+	 * @param filePath Objeto da classe {@code Path} que representa um arquivo a ser deletado.
+	 * @return {@code true} se, e somente se, o arquivo do objeto passado como argumento existir e for deletado.
+	 * @throws IOException Exceção que será propagada para o escopo do qual este método é chamado.
+	 */
 	public static boolean deleteFile(Path filePath) throws IOException {
 		if (Files.exists(filePath)) {
 			Files.delete(filePath);
