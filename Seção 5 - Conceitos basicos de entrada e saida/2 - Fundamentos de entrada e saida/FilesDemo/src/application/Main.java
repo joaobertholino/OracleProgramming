@@ -31,22 +31,20 @@ public class Main {
 	 * no console.
 	 */
 	public static void main(String[] args) {
-		Path dirPath = Paths.get("C:\\Users\\joaob\\OneDrive\\Documentos\\SENAI\\OracleProgramming\\Seção 5 - Conceitos basicos de entrada e saida\\2 - Fundamentos de entrada e saida\\FileDemoArchives");
-		Path usersFilePath = Paths.get("HighScores.txt");
+		Path directoryPath = Paths.get("C:\\Users\\joaob\\OneDrive\\Documentos\\SENAI\\OracleProgramming\\Seção 5 - Conceitos basicos de entrada e saida\\2 - Fundamentos de entrada e saida\\FileDemoArchives");
+		Path usersFilePath = Paths.get("Users.txt");
 		Path settingsFilePath = Paths.get("Settings.txt");
 
 		try {
-			Path users = FilesDemo.createFiles(dirPath, usersFilePath);
-			Path settings = FilesDemo.createFiles(dirPath, settingsFilePath);
+			Path usersPathCreate = FilesDemo.createFiles(directoryPath, usersFilePath);
+			Path settingsPathCreate = FilesDemo.createFiles(directoryPath, settingsFilePath);
+			displayFileProperties(usersPathCreate, settingsPathCreate);
 
-			if (users != null) {
-				displayFileStatus(users, settings);
+			if (FilesDemo.deleteFile(usersPathCreate)) {
+				System.err.println(usersPathCreate + " - Deleted");
 			}
-			if (FilesDemo.deleteFile(dirPath)) {
-				System.err.println(users + " - Deleted");
-			}
-			if (FilesDemo.deleteFile(settings)) {
-				System.err.println(settings + " - Deleted");
+			if (FilesDemo.deleteFile(settingsPathCreate)) {
+				System.err.println(settingsPathCreate + " - Deleted");
 			}
 		} catch (IOException e) {
 			System.err.println(e.getClass() + "\n" + e.getMessage());
@@ -61,15 +59,15 @@ public class Main {
 	 * métodos estáticos da classe {@code Files} de verificação de propriedades do objeto da classe {@code Path} passados
 	 * como argumento para eles.
 	 *
-	 * @param users    Parâmetro que espera receber um objeto da classe {@code Path}.
-	 * @param settings Parâmetro que espera receber um objeto da classe {@code Path}.
+	 * @param usersPathCreate    Parâmetro que espera receber um objeto da classe {@code Path}.
+	 * @param settingsPathCreate Parâmetro que espera receber um objeto da classe {@code Path}.
 	 * @throws IOException Exceção verificada que é propagada para o escopo do qual este método é chamado.
 	 */
-	public static void displayFileStatus(Path users, Path settings) throws IOException {
-		System.out.println("Readable: " + Files.isReadable(users));
-		System.out.println("Writeable: " + Files.isWritable(users));
-		System.out.println("Executable: " + Files.isExecutable(users));
-		System.out.println("Hidden: " + Files.isHidden(users));
-		System.out.println("Same files: " + Files.isSameFile(users, settings));
+	public static void displayFileProperties(Path usersPathCreate, Path settingsPathCreate) throws IOException {
+		System.out.println("Readable: " + Files.isReadable(usersPathCreate));
+		System.out.println("Writeable: " + Files.isWritable(usersPathCreate));
+		System.out.println("Executable: " + Files.isExecutable(usersPathCreate));
+		System.out.println("Hidden: " + Files.isHidden(usersPathCreate));
+		System.out.println("Same files: " + Files.isSameFile(usersPathCreate, settingsPathCreate));
 	}
 }
