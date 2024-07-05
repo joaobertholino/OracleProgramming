@@ -1,27 +1,24 @@
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
+import java.nio.file.*;
 
 public class Main {
 	public static void main(String[] args) {
 		Path pathBase = Paths.get("C:/Users/joaob/OneDrive/Documentos/SENAI/OracleProgramming/Seção 5 - Conceitos basicos de entrada e saida/2 - Fundamentos de entrada e saida/FilesCopyDemoArchives");
 		Path directoryScores = Paths.get("Scores");
 		Path directoryBackup = Paths.get("Backup");
-		Path fileHighscores = Paths.get("HighScores.txt");
+		Path fileHighScores = Paths.get("HighScores.txt");
 
 //		pathBase + directoryScores
 		Path originalDirectory = pathBase.resolve(directoryScores);
 
-//		pathBase + (directoryScores + fileHighscores)
-		Path originalFile = pathBase.resolve(directoryScores.resolve(fileHighscores));
+//		pathBase + (directoryScores + fileHighScores)
+		Path originalFile = pathBase.resolve(directoryScores.resolve(fileHighScores));
 
 //		pathBase + directoryBackup
 		Path backupDirectory = pathBase.resolve(directoryBackup);
 
-//		pathBase + (directoryBackup + fileHighscores)
-		Path backupFile = pathBase.resolve(directoryBackup.resolve(fileHighscores));
+//		pathBase + (directoryBackup + fileHighScores)
+		Path backupFile = pathBase.resolve(directoryBackup.resolve(fileHighScores));
 
 		try {
 			if (Files.exists(originalFile)) {
