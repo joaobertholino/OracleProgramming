@@ -8,11 +8,11 @@ import java.nio.file.Paths;
 
 public class Main {
 	public static void main(String[] args) {
-		Path path = Paths.get("C:\\Users\\joaob\\OneDrive\\Documentos\\SENAI\\OracleProgramming\\Seção 5 - Conceitos basicos de entrada e saida\\2 - Fundamentos de entrada e saida\\SerializeAndDeserializeArchives\\details.ser");
+		Path path = Paths.get("C:\\Users\\joaob\\OneDrive\\Documentos\\SENAI\\OracleProgramming\\Seção 5 - Conceitos basicos de entrada e saida\\2 - Fundamentos de entrada e saida\\SerializeAndDeserializeArchives\\CourseObjectSerialized.ser");
 		Course myCourse = new Course("Java Programming", "Oracle", "JP", 60);
 
 		serializeData(myCourse, path);
-		Course savedCourse = deSerializeData(path);
+		Course savedCourse = deserializeData(path);
 
 		displayData(savedCourse);
 	}
@@ -25,7 +25,7 @@ public class Main {
 		}
 	}
 
-	public static Course deSerializeData(Path path) {
+	public static Course deserializeData(Path path) {
 		try (FileInputStream fileIn = new FileInputStream(path.toString()); ObjectInputStream objIn = new ObjectInputStream(fileIn)) {
 			return (Course) objIn.readObject();
 		} catch (ClassNotFoundException | IOException e) {
@@ -35,7 +35,7 @@ public class Main {
 	}
 
 	public static void displayData(Course course) {
-		System.err.println("Deserialized Course Details:");
+		System.out.println("Deserialized Course Details:");
 		System.out.println(course);
 	}
 }
