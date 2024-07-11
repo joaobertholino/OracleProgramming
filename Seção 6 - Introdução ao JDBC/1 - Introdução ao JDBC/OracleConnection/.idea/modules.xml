@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MySQLConnection.iml" filepath="$PROJECT_DIR$/MySQLConnection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OracleConnection.iml" filepath="$PROJECT_DIR$/OracleConnection.iml" />
     </modules>
   </component>
 </project>
